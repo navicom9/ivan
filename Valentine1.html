@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>You Said Yes 💘</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    border-radius: 35px;
+    text-align: center;
+    width: 420px;
+    box-shadow: 0 35px 70px rgba(0,0,0,0.3);
+    animation: popIn 1s ease;
+}
+
+img {
+    width: 100%;
+    border-radius: 22px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+a button {
+    padding: 14px;
+    border-radius: 999px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+.fb {
+    background: #1877f2;
+    color: white;
+}
+
+.call {
+    background: #ff4d6d;
+    color: white;
+}
+
+a button:hover {
+    transform: scale(1.05);
+}
+
+@keyframes popIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Romantic">
+    <h1>I knew you’d say yes! 💖</h1>
+    <p>Now you officially have no escape 😌💕</p>
+
+    <div class="button-group">
+        <!-- Facebook Chat Button -->
+        <a href="https://web.facebook.com/NaviLambac" target="_blank">
+            <button class="fb">Chat me on Facebook 💬</button>
+        </a>
+
+        <!-- Call Button -->
+        <a href="tel:09854594772">
+            <button class="call">Call me ☎️</button>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
